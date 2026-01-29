@@ -1,0 +1,74 @@
+      body {
+  font-family: 'Arial', sans-serif;
+  background-color: #92c7ec; /* ฟ้าสว่างเป็นพื้นหลัง */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2196f3; /* สีฟ้าผสมสีส้ม */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 4px solid #1e88e5;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+/* Navigation */
+nav {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+  text-decoration: none;
+  color: #529de7;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #68b2ee;
+}
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        th, td {
+            border: 1px solid #000000;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #ffffff;
+        }
+        caption {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .shortcut {
+            font-weight: bold;
+            background-color: #fafafa;
+            white-space: nowrap;
+        }
+        .category {
+            background-color: #69b1f5;
+            font-weight: bold;
+            text-align: center;
+        }

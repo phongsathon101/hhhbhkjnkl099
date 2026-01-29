@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การลงโปรแกรมพื้นฐานที่ควรมี</title>
+    <link rel="stylesheet"  href="lesson05.css">
+</head>
+<header>
+    <h1>การติดตั้งวินโดว์ 10และ11ด้วย USB</h1>
+    <p>ขั้นตอนการลงระบบปฏิบัติการอย่างถูกต้อง</p>
+</header>
+<nav>
+  <a href="../homepage.html">หน้าแรก</a>
+  <a href="../lesson.html">บทเรียน</a>
+  <a href="../history.html">ประวัติคอมพิวเตอร์</a>
+  <a href="../about.html">เกี่ยวกับผู้จัดทำ</a>
+</nav>
+<body>
+    
+         <main class="container">
+        <section>
+            <h1>ต่อไปนี้คือ ขั้นตอนการติดตั้ง Windows 10 และ Windows 11 อย่างถูกต้อง เหมาะสำหรับการเรียน การสอน และการใช้งานจริง แบ่งเป็นลำดับเข้าใจง่าย</h1>
+        </section>
+    </main>
+    <main class="container">
+        <section>
+            <h1>1.เตรียมความพร้อมก่อนติดตั้ง</h1>
+            <ul>
+                <li>เตรียม แฟลชไดรฟ์อย่างน้อย 8 GB</li>
+                <li>สำรองข้อมูลสำคัญ (ไฟล์ รูป งาน) ไปยังแฟลชไดรฟ์หรือคลาวด์</li>
+                <li>ตรวจสอบสเปกเครื่อง</li>
+                <li>Windows 10: CPU 1 GHz, RAM 2 GB (64-bit แนะนำ 4 GB+)</li>
+                <li>Windows 11: ต้องมี TPM 2.0, Secure Boot, CPU รุ่นที่รองรับ</li>
+            </ul>
+        </section>
+        <section>
+            <h1>2.สร้างแฟลชไดรฟ์ติดตั้ง Windows (Boot USB)</h1>
+            <ul>
+                <li>ดาวน์โหลด Media Creation Tool (จาก Microsoft)</li>
+                <li>เสียบแฟลชไดรฟ์ → เปิดโปรแกรม</li>
+                <li>เลือก Create installation media</li>
+                <li>เลือกเวอร์ชัน Windows 10 หรือ 11</li>
+                <li>เลือก USB Flash Drive</li>
+                <li>รอจนสร้างเสร็จ</li>
+            </ul>
+        </section>
+        <section>
+            <h1>3.ตั้งค่า BIOS / UEFI ให้บูตจาก USB</h1>
+            <ul>
+                <li>รีสตาร์ตเครื่อง</li>
+                <li>กดปุ่มเข้า BIOS/Boot Menu (เช่น F2 / F10 / F12 / DEL)</li>
+                <li>ตั้งค่า Boot Order ให้ USB เป็นลำดับแรก</li>
+                <li>Save & Exit</li>
+            </ul>
+        </section>
+        <section>
+            <h1>4.เริ่มติดตั้ง Windows</h1>
+            <ul>
+                <li>เลือกภาษา เวลา และคีย์บอร์ด</li>
+                <li>คลิก Install Now</li>
+                <li>ใส่ Product Key (หรือเลือก I don’t have a product key)</li>
+                <li>เลือกรุ่น Windows ให้ตรงกับไลเซนส์</li>
+            </ul>
+        </section>
+        <section>
+            <h1>5.เลือกประเภทการติดตั้ง</h1>
+            <ul>
+                <li>เลือก Custom: Install Windows only (advanced)</li>
+                <li>ลบ/สร้างพาร์ทิชัน (กรณีลงใหม่ทั้งเครื่อง)</li>
+                <li>เลือกไดรฟ์หลัก → กด Next</li>
+                <il>⚠️ การลบพาร์ทิชันจะทำให้ข้อมูลหาย</il>
+            </ul>
+        </section>
+        <section>
+            <h1>6.รอระบบติดตั้งอัตโนมัติ</h1>
+            <ul>
+                <li>เครื่องจะคัดลอกไฟล์และรีสตาร์ตอัตโนมัติ</li>
+                <li>ห้ามถอด USB จนกว่าจะเข้าหน้าตั้งค่าแรกของ Windows</li>
+            </ul>
+        </section>
+        <section>
+            <h1>7.ตั้งค่าเริ่มต้นหลังติดตั้ง</h1>
+            <ul>
+                <li>เลือกประเทศ ภาษา คีย์บอร์ด</li>
+                <li>เชื่อมต่ออินเทอร์เน็ต</li>
+                <li>สร้างบัญชีผู้ใช้ (Microsoft Account หรือ Local Account)</li>
+                <li>ตั้งค่าความเป็นส่วนตัว</li>
+            </ul>
+        </section>
+        <section>
+            <h1>8.หลังติดตั้งเสร็จ (สำคัญมาก)</h1>
+            <ul>
+                <li>อัปเดต Windows Update ให้ครบ</li>
+                <li>ติดตั้ง ไดรเวอร์ (การ์ดจอ เสียง Wi-Fi)</li>
+                <li>ติดตั้งโปรแกรมพื้นฐาน เช่น Office, Browser, PDF Reader</li>
+                <li>เปิดใช้งาน Windows (Activate)</li>
+            </ul>
+        </section>
+        <section id="youtube-video">
+  <h2>วิดีโอจาก YouTube</h2>
+
+  <iframe
+    width="100%"
+    height="400"
+    src="https://youtu.be/TJnpN5N3bQo?si=C6Rj8UiWGF0rDTLF"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</section>
+
+    </main>
+</body>
